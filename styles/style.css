@@ -294,6 +294,8 @@ main{
     width: 100vw;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
 }
 
 
@@ -327,7 +329,6 @@ main{
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
-    /* background-color: green; */
 }
 
 .Informations{
@@ -559,8 +560,8 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-left: 0px;
     }
-    
     
     .projetos{
         flex-direction: column;
